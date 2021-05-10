@@ -1,58 +1,52 @@
-
 body {
-    background-image: linear-gradient(#a5ebeb, #4b78f3);
-    background-position: 10rem;
+  background-image: linear-gradient(#a5ebeb, #4b78f3);
 }
 
 h1 {
-    /* font-family: "Montserrat-Black"; */
-    font-size: 2rem;
-    line-height: 1.5;
-    padding: 2% 5%;
+  font-family: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 2% 5%;
 }
 
-button {
-    position: 0 0 0 10px;
-}
 .logo {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
 
-}
 footer {
-    text-align: center;
+  text-align: center;
 }
+
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
-.content {
-    background-color: #FFF;
-    border-radius: 2%;
+
+div.content {
+  background-color: #fff;
+  border-radius: 2%;
 }
+
 .form-col {
-    padding: 2% 5%;
+  padding: 2% 5%;
 }
 
 .form-col2 {
-    padding: 2% 5%;
-    background-image: linear-gradient(#d7f0f7, #809ff5);
-    border-radius: 2%;
+  padding: 2% 5%;
+  background-image: linear-gradient(#d7f0f7, #809ff5);
+  border-radius: 2%;
 }
-
-/* .img {
-    position: static;
-} */
 
 #navigation {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
-
-
-/* 
 @media (max-width: 990px) {
-
-    .img {
-        margin-top: 0;
-    }
-} */
+  h1 {
+    font-family: "Montserrat-Black";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    /* padding: 2% 2%; */
+  }
+}
